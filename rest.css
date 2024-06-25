@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(res1.png);
+	background-position: right;
+}
+.head{
+	text-align: center;
+}
+.head h1{
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+.head h2{
+	color: white;
+	font-weight: lighter;
+	font-size: 14px;
+}
+.nav{
+	text-align: center;
+	word-spacing: 2.0cm;
+	border: none;
+	text-decoration: none;
+}
+nav a:hover{
+	color: orange;
+}
+nav .item1{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	border: none;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head h3{
+	color: white;
+	font-weight: lighter;
+	font-size: 8px;
+}
+.summery{
+	text-align: left;
+	padding: 11em 10em 10em 5em;
+}
+.summery h1{
+	color: white;
+	font-weight: bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+img{
+	float: right;
+	position: absolute;
+	left:24cm;
+	top: 5.5cm;
+	border-radius: 50%;
+	border:10px double white;
+}

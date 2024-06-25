@@ -1,34 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="form.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Log in Form</title>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="form.css">
+	<link rel="icon" href="benue2.jpg">
 </head>
 <body>
-	<div id="all">
-		<h1 class="topic">Akuhwa Michael Log in form</h1>
-			<img src="img1.png" alt="image">
-		<div class="form">
-			<form action="/registration" method="post">
-				<h1>Member Login?</h1>
-				<br><br>
-				<div class="form1">
-				<label for="mail" name="mail">Email</label><br>
-				<input type="email" name="email" placeholder="email"><br>
-				<label for="pass" name="pass">Password</label><br>
-				<input type="password" name="password" placeholder="password">
-				<div class="options">
-					<a class="fg" href="#">Forgot password?</a>
-					<a class="create" href="#">Create an account!</a>
-					</div>
-				<div class="submit">
-				<a class="sub" href="#">Log in</a>
-				</di>
-			</div>
-			</form>
+	<h1 class="topic">Welvome to the Benue Tech Skill Program Registration Page</h1><br><br>
+	<h1 class="h1">Please fill the form below</h1>
+	<div class="form">
+		<form id="for">
+	<form action="/registration" method="post">
+		<label for="username" name="username">First Name</label><br>
+		<input type="text" name="username"><br>
+		<label for="username" name="username">Middle Name</label><br>
+		<input type="text" name="username"><br>
+		<label for="username" name="username">Last Name</label><br>
+		<input type="text" name="username"><br>
+		<label for="number" name="num">Phone Number</label><br>
+		<input type="number" name="num"><br>
+		<label for="email" name="mail">E-mail</label><br>
+		<input type="text" name="username">
+	</form>
+	<form action="/registration">
+			<p>please choose the one you belong to below.</p>
+		<input  type="radio" name="radio">
+		<label  for="radio" name="radio">Individual</label>
+		<input  type="radio" name="radio">
+		<label  for="radio" name="radio">Organisation</label> <br><br>
+		<input  type="checkbox" name="username">
+		<label  for="checkbox" name="box">I agree to Terms and Conditions</label><br><br>
+		<div class="sub">
+			<form action="/submit" method="post">
+		<input type="submit">
+	</form>
 		</div>
-	</div>
+	</form>
+	
+	</for>
+</div>
 </body>
 </html>
